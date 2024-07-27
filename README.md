@@ -30,6 +30,8 @@ The pre-trained model used for this Dataset are [t5-small](https://huggingface.c
 | t5-small     | 0.7526     | 0.7542    |
 | facebook/bart-base     | 0.6239    |0.8321    | 
 
+### Model Files
 
+- t5-small - https://www.kaggle.com/models/hritik619916/t5-small
 
 

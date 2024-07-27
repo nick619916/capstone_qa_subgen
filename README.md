@@ -27,8 +27,8 @@ The pre-trained model used for this Dataset are [t5-small](https://huggingface.c
 | Model | Rouge - L | Sacrebleu | 
 |-----------------|-----------------|-----------------|
 | GPT2     | 0.1112   | 0.9392     | 
-| t5-small     | 0.7526     | 0.8321    |
-| facebook/bart-base     | 0.6239    |0.7452     | 
+| t5-small     | 0.7526     | 0.7542    |
+| facebook/bart-base     | 0.6239    |0.8321    | 
 
 
 

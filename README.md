@@ -16,4 +16,9 @@ It aims to create relevant and engaging subject lines automatically
 The dataset used for the project is  [Annotated Enron Subject Line Corpus (AESLC)](https://github.com/ryanzhumich/AESLC).
 
 - It consists of a subset of cleaned, filtered and deduplicated emails from the Enron Email Corpuswhich consists of employee email inboxes from the Enron Corporation.
-* For evaluation, the data is split into development and test sets, each containing three subject lines annotated by human reviewers. This multiple-reference approach allows for a more comprehensive assessment of the generated subjects, acknowledging the challenge of defining a single, perfect subject for each email.
+* For evaluation, the data is split into development and test sets, each containing three subject lines annotated by human reviewers. This multiple-reference approach allows comprehensive assessment of the generated subjects, acknowledging the challenge of defining a single, perfect subject for each email.
+
+
+## Models
+
+The pre-trained model used for this Dataset are [t5-small](https://huggingface.co/google-t5/t5-small),[GPT2](https://huggingface.co/openai-community/gpt2),[facebook/bart-base](https://huggingface.co/facebook/bart-base)

@@ -22,3 +22,14 @@ The dataset used for the project is  [Annotated Enron Subject Line Corpus (AESLC
 ## Models
 
 The pre-trained model used for this Dataset are [t5-small](https://huggingface.co/google-t5/t5-small),[GPT2](https://huggingface.co/openai-community/gpt2),[facebook/bart-base](https://huggingface.co/facebook/bart-base)
+
+
+| Model | Rouge - L | Sacrebleu | 
+|-----------------|-----------------|-----------------|
+| GPT2     | 0.1112   | 0.9392     | 
+| t5-small     | 0.7526     | 0.8321    |
+| facebook/bart-base     | 0.6239    |0.7452     | 
+
+
+
+

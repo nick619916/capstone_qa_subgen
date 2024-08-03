@@ -27,7 +27,7 @@ The pre-trained model used for this Dataset are [t5-small](https://huggingface.c
 | Model | Rouge - L | Sacrebleu | 
 |-----------------|-----------------|-----------------|
 | GPT2     | 0.1112   | 0.9392     | 
-| t5-small     | 0.7526     | 0.7542    |
+| t5-small     | 0.7526     | 0.7612    |
 | facebook/bart-base     | 0.6239    |0.8321    | 
 
 ### Model Files
@@ -35,6 +35,12 @@ Model and it's files are Uploaded on Kaggle for now
 - t5-small - https://www.kaggle.com/models/hritik619916/t5-small
 - GPT2 - https://www.kaggle.com/models/hritik619916/gpt2
 - Bart - https://www.kaggle.com/models/hritik619916/bart-new
-  
+
+
+## App
+
+We have created Gradio Apps for the T5 Model
+
+-T5 small - https://huggingface.co/spaces/Hritik619916/email-subject-t5
 
 

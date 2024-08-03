@@ -43,4 +43,8 @@ We have created Gradio Apps for the T5 Model
 
 -T5 small - https://huggingface.co/spaces/Hritik619916/email-subject-t5
 
+### Model Weights for Gradio 
+-T5 - https://huggingface.co/Hritik619916/t5-small-model
+
+
 

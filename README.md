@@ -36,15 +36,78 @@ Model and it's files are Uploaded on Kaggle for now
 - GPT2 - https://www.kaggle.com/models/hritik619916/gpt2
 - Bart - https://www.kaggle.com/models/hritik619916/bart-new
 
+## Update
+-Added T5 model used further ,on HuggingFace as well,
+-T5 - https://huggingface.co/Hritik619916/t5-small-model
+
 
 ## App
 
 We have created Gradio Apps for the T5 Model
 
-- T5 small - https://huggingface.co/spaces/Hritik619916/email-subject-t5
+- T5 small - https://huggingface.co/spaces/Hritik619916/Capstone-Email-QA
 
 ### Model Weights for Gradio 
 - T5 - https://huggingface.co/Hritik619916/t5-small-model
+
+
+
+
+
+# Question Answer on AIML
+
+The project focuses on developing and fine-tuning a GPT model to answer questions reagarding the AIML course only, focusing on generating accurate and relevant answers for the following questions.
+
+## Dataset
+
+The dataset used for the project is  [AIML QA Data](https://www.kaggle.com/datasets/hritik619916/new-qa-dataset).
+
+The preprocessing in this task is primarily involved in formatting the training dataset to an appropriate prompt format.
+
+## Models
+
+The pre-trained model used for this Dataset is [GPT2](https://huggingface.co/openai-community/gpt2)
+
+
+| Model | Rouge - 1 | Rogue - 2 | Rogue - L | 
+|-----------------|-----------------|-----------------|-----------------|
+| GPT2     | 0.34790018989021654   | 0.18205649943032873   | 0.2913203003549229   |
+
+
+### Model Files
+Model and it's files are Uploaded on HuggingFace
+- GPT2 - https://huggingface.co/Hritik619916/QA_GPT2
+
+
+## App
+
+We have created Gradio Apps for the finetuned GPT2 Model
+
+- GPT2 - https://huggingface.co/spaces/Hritik619916/Capstone-Email-QA
+
+### Model Weights for Gradio 
+- GPT2 - https://huggingface.co/Hritik619916/QA_GPT2
+
+
+## ROUGE Scores Explanation:
+
+- **ROUGE-1** measures the overlap of unigrams (single words) between the generated and reference summaries. Higher scores indicate better performance in capturing essential words.
+
+- **ROUGE-2** evaluates the overlap of bigrams (two consecutive words). It provides insight into how well the model captures pairs of words.
+
+- **ROUGE-L** assesses the longest common subsequence between the generated and reference summaries. It reflects the fluency and coherence of the generated text.
+
+## Evaluation Metrics
+
+Each of these metrics can be evaluated in terms of:
+
+- **Precision**: The fraction of n-grams in the generated summary that are also in the reference summary.
+
+- **Recall**: The fraction of n-grams in the reference summary that are also in the generated summary.
+
+- **F1 Score**: The harmonic mean of precision and recall, providing a balanced measure.
+
+
 
 
 
